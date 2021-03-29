@@ -2,6 +2,6 @@ const Discord = require('discord.js'); //importando o arquivo com as funcionalid
 
 const bot = new Discord.Client(); //instanciamos uma classe
 
-const token = 'ODI2MTE1MDg4ODc1NjUxMTEy.YGHxoQ.OEeeFNKyV4DOiLlhGzOUl3SHku4';
+const token = '';
 
 bot.login(token);
