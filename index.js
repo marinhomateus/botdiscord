@@ -10,3 +10,7 @@ client.on("ready", () => {
     console.log("Bot em funcionamento!");//mensagem de ativaçao do bot
 });
 
+client.on("message", async (message) => {
+
+    const args = message.content.slice(config.prefix.length).trim().split(/ +/g);
+    const comando = args.shift().toLowerCase();
