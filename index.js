@@ -26,6 +26,6 @@ client.on("message", async (message) => {
 
     //EXAMPLE           ?play Sacrifice         Will play the first 'Sacrifice' result found on youtube
 
-}
+});
 
 client.login(config.token);//log the bot by a token
